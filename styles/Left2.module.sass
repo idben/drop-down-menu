@@ -1,0 +1,28 @@
+.left
+  position: relative
+  width: 100%
+  @media (min-width: 768px)
+    width: 200px
+.select1
+  font-size: 20px
+  width: 100%
+  @media (min-width: 768px)
+    height: 200px
+    border: none
+    outline: none      
+  option
+    @media (min-width: 768px)
+      text-align: center
+      margin-bottom: 10px
+      &:active
+        background-color: #f16806
+      &:checked
+        font-size: 28px
+        background-color: #f16806
+        color: #fff
+        border-radius: 10px
+  option:nth-child(1)
+    @media (min-width: 768px)
+      display: none
+    color: #fff
+    border-radius: 10px
